@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7564E31E81287B0069AAD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7564E21E81287B0069AAD7 /* main.m */; };
+		3C7564E61E81287B0069AAD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7564E51E81287B0069AAD7 /* AppDelegate.m */; };
+		3C7564EC1E81287B0069AAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7564EA1E81287B0069AAD7 /* Main.storyboard */; };
+		3C7564EE1E81287B0069AAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7564ED1E81287B0069AAD7 /* Assets.xcassets */; };
+		3C7564F11E81287B0069AAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C7564EF1E81287B0069AAD7 /* LaunchScreen.storyboard */; };
+		3C7564FC1E81287B0069AAD7 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7564FB1E81287B0069AAD7 /* ____Tests.m */; };
+		3C7565071E81287C0069AAD7 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7565061E81287C0069AAD7 /* ____UITests.m */; };
+		3CBAFE401E8403BF008ADFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAFE311E8403BF008ADFED /* ViewController.m */; };
+		3CBAFE411E8403BF008ADFED /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAFE361E8403BF008ADFED /* UIButton+Extension.m */; };
+		3CBAFE421E8403BF008ADFED /* UIButton+userInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAFE381E8403BF008ADFED /* UIButton+userInfo.m */; };
+		3CBAFE431E8403BF008ADFED /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAFE3A1E8403BF008ADFED /* UIImage+Color.m */; };
+		3CBAFE441E8403BF008ADFED /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAFE3C1E8403BF008ADFED /* UIView+Frame.m */; };
+		3CBAFE451E8403BF008ADFED /* SPTipsMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAFE3F1E8403BF008ADFED /* SPTipsMenu.m */; };
+		3CBAFE481E8403F2008ADFED /* SPShortCutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CBAFE471E8403F2008ADFED /* SPShortCutView.m */; };
+		3CBAFE601E841079008ADFED /* image_10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE4A1E841079008ADFED /* image_10@2x.png */; };
+		3CBAFE611E841079008ADFED /* image_10_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE4B1E841079008ADFED /* image_10_h@2x.png */; };
+		3CBAFE621E841079008ADFED /* image_11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE4C1E841079008ADFED /* image_11@2x.png */; };
+		3CBAFE631E841079008ADFED /* image_11_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE4D1E841079008ADFED /* image_11_h@2x.png */; };
+		3CBAFE641E841079008ADFED /* image_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE4E1E841079008ADFED /* image_1@2x.png */; };
+		3CBAFE651E841079008ADFED /* image_1_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE4F1E841079008ADFED /* image_1_h@2x.png */; };
+		3CBAFE661E841079008ADFED /* image_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE501E841079008ADFED /* image_2@2x.png */; };
+		3CBAFE671E841079008ADFED /* image_2_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE511E841079008ADFED /* image_2_h@2x.png */; };
+		3CBAFE681E841079008ADFED /* image_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE521E841079008ADFED /* image_3@2x.png */; };
+		3CBAFE691E841079008ADFED /* image_3_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE531E841079008ADFED /* image_3_h@2x.png */; };
+		3CBAFE6A1E841079008ADFED /* image_4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE541E841079008ADFED /* image_4@2x.png */; };
+		3CBAFE6B1E841079008ADFED /* image_4_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE551E841079008ADFED /* image_4_h@2x.png */; };
+		3CBAFE6C1E841079008ADFED /* image_5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE561E841079008ADFED /* image_5@2x.png */; };
+		3CBAFE6D1E841079008ADFED /* image_5_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE571E841079008ADFED /* image_5_h@2x.png */; };
+		3CBAFE6E1E841079008ADFED /* image_6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE581E841079008ADFED /* image_6@2x.png */; };
+		3CBAFE6F1E841079008ADFED /* image_6_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE591E841079008ADFED /* image_6_h@2x.png */; };
+		3CBAFE701E841079008ADFED /* image_7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE5A1E841079008ADFED /* image_7@2x.png */; };
+		3CBAFE711E841079008ADFED /* image_7_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE5B1E841079008ADFED /* image_7_h@2x.png */; };
+		3CBAFE721E841079008ADFED /* image_8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE5C1E841079008ADFED /* image_8@2x.png */; };
+		3CBAFE731E841079008ADFED /* image_8_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE5D1E841079008ADFED /* image_8_h@2x.png */; };
+		3CBAFE741E841079008ADFED /* image_9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE5E1E841079008ADFED /* image_9@2x.png */; };
+		3CBAFE751E841079008ADFED /* image_9_h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE5F1E841079008ADFED /* image_9_h@2x.png */; };
+		3CBAFE771E84132A008ADFED /* backgroud@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CBAFE761E84132A008ADFED /* backgroud@2x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C7564F81E81287B0069AAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7564D61E81287B0069AAD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7564DD1E81287B0069AAD7;
+			remoteInfo = "ShortcutButton";
+		};
+		3C7565031E81287C0069AAD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7564D61E81287B0069AAD7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7564DD1E81287B0069AAD7;
+			remoteInfo = "ShortcutButton";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C7564DE1E81287B0069AAD7 /* ShortcutButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShortcutButton.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7564E21E81287B0069AAD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C7564E41E81287B0069AAD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C7564E51E81287B0069AAD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C7564EB1E81287B0069AAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C7564ED1E81287B0069AAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C7564F01E81287B0069AAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C7564F21E81287B0069AAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7564F71E81287B0069AAD7 /* ShortcutButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShortcutButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7564FB1E81287B0069AAD7 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		3C7564FD1E81287B0069AAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C7565021E81287B0069AAD7 /* ShortcutButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShortcutButtonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7565061E81287C0069AAD7 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		3C7565081E81287C0069AAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C75651D1E820FE90069AAD7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3CBAFE301E8403BF008ADFED /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3CBAFE311E8403BF008ADFED /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3CBAFE351E8403BF008ADFED /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		3CBAFE361E8403BF008ADFED /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		3CBAFE371E8403BF008ADFED /* UIButton+userInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+userInfo.h"; sourceTree = "<group>"; };
+		3CBAFE381E8403BF008ADFED /* UIButton+userInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+userInfo.m"; sourceTree = "<group>"; };
+		3CBAFE391E8403BF008ADFED /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		3CBAFE3A1E8403BF008ADFED /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		3CBAFE3B1E8403BF008ADFED /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3CBAFE3C1E8403BF008ADFED /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3CBAFE3E1E8403BF008ADFED /* SPTipsMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTipsMenu.h; sourceTree = "<group>"; };
+		3CBAFE3F1E8403BF008ADFED /* SPTipsMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTipsMenu.m; sourceTree = "<group>"; };
+		3CBAFE461E8403F2008ADFED /* SPShortCutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPShortCutView.h; sourceTree = "<group>"; };
+		3CBAFE471E8403F2008ADFED /* SPShortCutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPShortCutView.m; sourceTree = "<group>"; };
+		3CBAFE4A1E841079008ADFED /* image_10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_10@2x.png"; sourceTree = "<group>"; };
+		3CBAFE4B1E841079008ADFED /* image_10_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_10_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE4C1E841079008ADFED /* image_11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_11@2x.png"; sourceTree = "<group>"; };
+		3CBAFE4D1E841079008ADFED /* image_11_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_11_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE4E1E841079008ADFED /* image_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_1@2x.png"; sourceTree = "<group>"; };
+		3CBAFE4F1E841079008ADFED /* image_1_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_1_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE501E841079008ADFED /* image_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_2@2x.png"; sourceTree = "<group>"; };
+		3CBAFE511E841079008ADFED /* image_2_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_2_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE521E841079008ADFED /* image_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_3@2x.png"; sourceTree = "<group>"; };
+		3CBAFE531E841079008ADFED /* image_3_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_3_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE541E841079008ADFED /* image_4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_4@2x.png"; sourceTree = "<group>"; };
+		3CBAFE551E841079008ADFED /* image_4_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_4_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE561E841079008ADFED /* image_5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_5@2x.png"; sourceTree = "<group>"; };
+		3CBAFE571E841079008ADFED /* image_5_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_5_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE581E841079008ADFED /* image_6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_6@2x.png"; sourceTree = "<group>"; };
+		3CBAFE591E841079008ADFED /* image_6_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_6_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE5A1E841079008ADFED /* image_7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_7@2x.png"; sourceTree = "<group>"; };
+		3CBAFE5B1E841079008ADFED /* image_7_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_7_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE5C1E841079008ADFED /* image_8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_8@2x.png"; sourceTree = "<group>"; };
+		3CBAFE5D1E841079008ADFED /* image_8_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_8_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE5E1E841079008ADFED /* image_9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_9@2x.png"; sourceTree = "<group>"; };
+		3CBAFE5F1E841079008ADFED /* image_9_h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image_9_h@2x.png"; sourceTree = "<group>"; };
+		3CBAFE761E84132A008ADFED /* backgroud@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "backgroud@2x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7564DB1E81287B0069AAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7564F41E81287B0069AAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7564FF1E81287B0069AAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7564D51E81287B0069AAD7 = {
+			isa = PBXGroup;
+			children = (
+				3C7564E01E81287B0069AAD7 /* ShortcutButton */,
+				3C7564FA1E81287B0069AAD7 /* ShortcutButtonTests */,
+				3C7565051E81287C0069AAD7 /* ShortcutButtonUITests */,
+				3C7564DF1E81287B0069AAD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7564DF1E81287B0069AAD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7564DE1E81287B0069AAD7 /* ShortcutButton.app */,
+				3C7564F71E81287B0069AAD7 /* ShortcutButtonTests.xctest */,
+				3C7565021E81287B0069AAD7 /* ShortcutButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7564E01E81287B0069AAD7 /* ShortcutButton */ = {
+			isa = PBXGroup;
+			children = (
+				3CBAFE491E841079008ADFED /* image */,
+				3CBAFE2F1E8403BF008ADFED /* Controller */,
+				3CBAFE321E8403BF008ADFED /* Model */,
+				3CBAFE331E8403BF008ADFED /* Other */,
+				3CBAFE3D1E8403BF008ADFED /* View */,
+				3C7564E41E81287B0069AAD7 /* AppDelegate.h */,
+				3C7564E51E81287B0069AAD7 /* AppDelegate.m */,
+				3C7564EA1E81287B0069AAD7 /* Main.storyboard */,
+				3C7564ED1E81287B0069AAD7 /* Assets.xcassets */,
+				3C7564EF1E81287B0069AAD7 /* LaunchScreen.storyboard */,
+				3C7564F21E81287B0069AAD7 /* Info.plist */,
+				3C7564E11E81287B0069AAD7 /* Supporting Files */,
+			);
+			path = "ShortcutButton";
+			sourceTree = "<group>";
+		};
+		3C7564E11E81287B0069AAD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7564E21E81287B0069AAD7 /* main.m */,
+				3C75651D1E820FE90069AAD7 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C7564FA1E81287B0069AAD7 /* ShortcutButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7564FB1E81287B0069AAD7 /* ____Tests.m */,
+				3C7564FD1E81287B0069AAD7 /* Info.plist */,
+			);
+			path = "ShortcutButtonTests";
+			sourceTree = "<group>";
+		};
+		3C7565051E81287C0069AAD7 /* ShortcutButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7565061E81287C0069AAD7 /* ____UITests.m */,
+				3C7565081E81287C0069AAD7 /* Info.plist */,
+			);
+			path = "ShortcutButtonUITests";
+			sourceTree = "<group>";
+		};
+		3CBAFE2F1E8403BF008ADFED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3CBAFE301E8403BF008ADFED /* ViewController.h */,
+				3CBAFE311E8403BF008ADFED /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3CBAFE321E8403BF008ADFED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CBAFE331E8403BF008ADFED /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3CBAFE341E8403BF008ADFED /* Category */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3CBAFE341E8403BF008ADFED /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3CBAFE351E8403BF008ADFED /* UIButton+Extension.h */,
+				3CBAFE361E8403BF008ADFED /* UIButton+Extension.m */,
+				3CBAFE371E8403BF008ADFED /* UIButton+userInfo.h */,
+				3CBAFE381E8403BF008ADFED /* UIButton+userInfo.m */,
+				3CBAFE391E8403BF008ADFED /* UIImage+Color.h */,
+				3CBAFE3A1E8403BF008ADFED /* UIImage+Color.m */,
+				3CBAFE3B1E8403BF008ADFED /* UIView+Frame.h */,
+				3CBAFE3C1E8403BF008ADFED /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3CBAFE3D1E8403BF008ADFED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CBAFE3E1E8403BF008ADFED /* SPTipsMenu.h */,
+				3CBAFE3F1E8403BF008ADFED /* SPTipsMenu.m */,
+				3CBAFE461E8403F2008ADFED /* SPShortCutView.h */,
+				3CBAFE471E8403F2008ADFED /* SPShortCutView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3CBAFE491E841079008ADFED /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3CBAFE761E84132A008ADFED /* backgroud@2x.jpg */,
+				3CBAFE4A1E841079008ADFED /* image_10@2x.png */,
+				3CBAFE4B1E841079008ADFED /* image_10_h@2x.png */,
+				3CBAFE4C1E841079008ADFED /* image_11@2x.png */,
+				3CBAFE4D1E841079008ADFED /* image_11_h@2x.png */,
+				3CBAFE4E1E841079008ADFED /* image_1@2x.png */,
+				3CBAFE4F1E841079008ADFED /* image_1_h@2x.png */,
+				3CBAFE501E841079008ADFED /* image_2@2x.png */,
+				3CBAFE511E841079008ADFED /* image_2_h@2x.png */,
+				3CBAFE521E841079008ADFED /* image_3@2x.png */,
+				3CBAFE531E841079008ADFED /* image_3_h@2x.png */,
+				3CBAFE541E841079008ADFED /* image_4@2x.png */,
+				3CBAFE551E841079008ADFED /* image_4_h@2x.png */,
+				3CBAFE561E841079008ADFED /* image_5@2x.png */,
+				3CBAFE571E841079008ADFED /* image_5_h@2x.png */,
+				3CBAFE581E841079008ADFED /* image_6@2x.png */,
+				3CBAFE591E841079008ADFED /* image_6_h@2x.png */,
+				3CBAFE5A1E841079008ADFED /* image_7@2x.png */,
+				3CBAFE5B1E841079008ADFED /* image_7_h@2x.png */,
+				3CBAFE5C1E841079008ADFED /* image_8@2x.png */,
+				3CBAFE5D1E841079008ADFED /* image_8_h@2x.png */,
+				3CBAFE5E1E841079008ADFED /* image_9@2x.png */,
+				3CBAFE5F1E841079008ADFED /* image_9_h@2x.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7564DD1E81287B0069AAD7 /* ShortcutButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C75650B1E81287C0069AAD7 /* Build configuration list for PBXNativeTarget "ShortcutButton" */;
+			buildPhases = (
+				3C7564DA1E81287B0069AAD7 /* Sources */,
+				3C7564DB1E81287B0069AAD7 /* Frameworks */,
+				3C7564DC1E81287B0069AAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShortcutButton";
+			productName = "ShortcutButton";
+			productReference = 3C7564DE1E81287B0069AAD7 /* ShortcutButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C7564F61E81287B0069AAD7 /* ShortcutButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C75650E1E81287C0069AAD7 /* Build configuration list for PBXNativeTarget "ShortcutButtonTests" */;
+			buildPhases = (
+				3C7564F31E81287B0069AAD7 /* Sources */,
+				3C7564F41E81287B0069AAD7 /* Frameworks */,
+				3C7564F51E81287B0069AAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7564F91E81287B0069AAD7 /* PBXTargetDependency */,
+			);
+			name = "ShortcutButtonTests";
+			productName = "ShortcutButtonTests";
+			productReference = 3C7564F71E81287B0069AAD7 /* ShortcutButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C7565011E81287B0069AAD7 /* ShortcutButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7565111E81287C0069AAD7 /* Build configuration list for PBXNativeTarget "ShortcutButtonUITests" */;
+			buildPhases = (
+				3C7564FE1E81287B0069AAD7 /* Sources */,
+				3C7564FF1E81287B0069AAD7 /* Frameworks */,
+				3C7565001E81287B0069AAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7565041E81287C0069AAD7 /* PBXTargetDependency */,
+			);
+			name = "ShortcutButtonUITests";
+			productName = "ShortcutButtonUITests";
+			productReference = 3C7565021E81287B0069AAD7 /* ShortcutButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7564D61E81287B0069AAD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TracyMcSong;
+				TargetAttributes = {
+					3C7564DD1E81287B0069AAD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3WP5CLA48;
+					};
+					3C7564F61E81287B0069AAD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3WP5CLA48;
+						TestTargetID = 3C7564DD1E81287B0069AAD7;
+					};
+					3C7565011E81287B0069AAD7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = W3WP5CLA48;
+						TestTargetID = 3C7564DD1E81287B0069AAD7;
+					};
+				};
+			};
+			buildConfigurationList = 3C7564D91E81287B0069AAD7 /* Build configuration list for PBXProject "ShortcutButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C7564D51E81287B0069AAD7;
+			productRefGroup = 3C7564DF1E81287B0069AAD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7564DD1E81287B0069AAD7 /* ShortcutButton */,
+				3C7564F61E81287B0069AAD7 /* ShortcutButtonTests */,
+				3C7565011E81287B0069AAD7 /* ShortcutButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7564DC1E81287B0069AAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBAFE671E841079008ADFED /* image_2_h@2x.png in Resources */,
+				3C7564F11E81287B0069AAD7 /* LaunchScreen.storyboard in Resources */,
+				3CBAFE6C1E841079008ADFED /* image_5@2x.png in Resources */,
+				3C7564EE1E81287B0069AAD7 /* Assets.xcassets in Resources */,
+				3CBAFE651E841079008ADFED /* image_1_h@2x.png in Resources */,
+				3CBAFE681E841079008ADFED /* image_3@2x.png in Resources */,
+				3CBAFE691E841079008ADFED /* image_3_h@2x.png in Resources */,
+				3CBAFE721E841079008ADFED /* image_8@2x.png in Resources */,
+				3CBAFE731E841079008ADFED /* image_8_h@2x.png in Resources */,
+				3CBAFE631E841079008ADFED /* image_11_h@2x.png in Resources */,
+				3CBAFE6B1E841079008ADFED /* image_4_h@2x.png in Resources */,
+				3CBAFE771E84132A008ADFED /* backgroud@2x.jpg in Resources */,
+				3CBAFE621E841079008ADFED /* image_11@2x.png in Resources */,
+				3CBAFE6F1E841079008ADFED /* image_6_h@2x.png in Resources */,
+				3CBAFE711E841079008ADFED /* image_7_h@2x.png in Resources */,
+				3CBAFE751E841079008ADFED /* image_9_h@2x.png in Resources */,
+				3CBAFE611E841079008ADFED /* image_10_h@2x.png in Resources */,
+				3CBAFE701E841079008ADFED /* image_7@2x.png in Resources */,
+				3C7564EC1E81287B0069AAD7 /* Main.storyboard in Resources */,
+				3CBAFE6D1E841079008ADFED /* image_5_h@2x.png in Resources */,
+				3CBAFE6E1E841079008ADFED /* image_6@2x.png in Resources */,
+				3CBAFE661E841079008ADFED /* image_2@2x.png in Resources */,
+				3CBAFE641E841079008ADFED /* image_1@2x.png in Resources */,
+				3CBAFE601E841079008ADFED /* image_10@2x.png in Resources */,
+				3CBAFE741E841079008ADFED /* image_9@2x.png in Resources */,
+				3CBAFE6A1E841079008ADFED /* image_4@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7564F51E81287B0069AAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7565001E81287B0069AAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7564DA1E81287B0069AAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBAFE401E8403BF008ADFED /* ViewController.m in Sources */,
+				3CBAFE481E8403F2008ADFED /* SPShortCutView.m in Sources */,
+				3CBAFE411E8403BF008ADFED /* UIButton+Extension.m in Sources */,
+				3C7564E61E81287B0069AAD7 /* AppDelegate.m in Sources */,
+				3CBAFE441E8403BF008ADFED /* UIView+Frame.m in Sources */,
+				3CBAFE431E8403BF008ADFED /* UIImage+Color.m in Sources */,
+				3CBAFE421E8403BF008ADFED /* UIButton+userInfo.m in Sources */,
+				3C7564E31E81287B0069AAD7 /* main.m in Sources */,
+				3CBAFE451E8403BF008ADFED /* SPTipsMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7564F31E81287B0069AAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7564FC1E81287B0069AAD7 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7564FE1E81287B0069AAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7565071E81287C0069AAD7 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C7564F91E81287B0069AAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7564DD1E81287B0069AAD7 /* ShortcutButton */;
+			targetProxy = 3C7564F81E81287B0069AAD7 /* PBXContainerItemProxy */;
+		};
+		3C7565041E81287C0069AAD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7564DD1E81287B0069AAD7 /* ShortcutButton */;
+			targetProxy = 3C7565031E81287C0069AAD7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C7564EA1E81287B0069AAD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7564EB1E81287B0069AAD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C7564EF1E81287B0069AAD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7564F01E81287B0069AAD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C7565091E81287C0069AAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C75650A1E81287C0069AAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C75650C1E81287C0069AAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ShortcutButton/PrefixHeader.pch";
+				INFOPLIST_FILE = "ShortcutButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C75650D1E81287C0069AAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/ShortcutButton/PrefixHeader.pch";
+				INFOPLIST_FILE = "ShortcutButton/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C75650F1E81287C0069AAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ShortcutButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortcutButton.app/ShortcutButton";
+			};
+			name = Debug;
+		};
+		3C7565101E81287C0069AAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "ShortcutButtonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortcutButton.app/ShortcutButton";
+			};
+			name = Release;
+		};
+		3C7565121E81287C0069AAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ShortcutButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ShortcutButton";
+			};
+			name = Debug;
+		};
+		3C7565131E81287C0069AAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "ShortcutButtonUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Tracy.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "ShortcutButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7564D91E81287B0069AAD7 /* Build configuration list for PBXProject "ShortcutButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7565091E81287C0069AAD7 /* Debug */,
+				3C75650A1E81287C0069AAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C75650B1E81287C0069AAD7 /* Build configuration list for PBXNativeTarget "ShortcutButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C75650C1E81287C0069AAD7 /* Debug */,
+				3C75650D1E81287C0069AAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C75650E1E81287C0069AAD7 /* Build configuration list for PBXNativeTarget "ShortcutButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C75650F1E81287C0069AAD7 /* Debug */,
+				3C7565101E81287C0069AAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7565111E81287C0069AAD7 /* Build configuration list for PBXNativeTarget "ShortcutButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7565121E81287C0069AAD7 /* Debug */,
+				3C7565131E81287C0069AAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7564D61E81287B0069AAD7 /* Project object */;
+}

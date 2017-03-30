@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  图标拖动
+//
+//  Created by Song on 17/3/22.
+//  Copyright © 2017年 TracyMcSong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+
+#define PrefixHeader_pch
+
+#define kcr(x,y,w,h) CGRectMake(x, y, w, h)
+
+#define kColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+#define kGrayColor kColorFromRGB(0x888888)
+
+#define kBlueColor kColorFromRGB(0x1abbfe)
+
+#endif
+
+#import "UIView+Frame.h"
+#import "UIImage+Color.h"
+#import "UIButton+userInfo.h"
+#import "UIButton+Extension.h"
