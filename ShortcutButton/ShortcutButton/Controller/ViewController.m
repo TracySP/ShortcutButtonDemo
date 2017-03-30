@@ -12,7 +12,7 @@
 @interface ViewController ()<SPTipsMenuDelegate>
 
 @property (nonatomic,strong) SPTipsMenu *tipsMenu;
-
+/// 移动的按钮
 @property (nonatomic,strong) UIButton *moveBtn;
 
 @property (nonatomic,strong) UIVisualEffectView *visualView;
